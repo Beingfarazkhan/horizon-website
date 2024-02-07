@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
 import "./about-us-mission.styles.css";
 
-const AboutUsMission = () => {
+const AboutUsFuture = () => {
   return (
     <Box sx={{ backgroundColor: "white", color: "black", paddingTop: "20px" }}>
       <section className="mission-wrapper">
@@ -22,7 +22,7 @@ const AboutUsMission = () => {
               }}
               className="mission-image-container"
             >
-              <img src="../../../public/mission.png" alt="mission" />
+              <img src="../../../public/futureAim.png" alt="Future" />
             </motion.div>
           </div>
           {/* right side */}
@@ -37,31 +37,29 @@ const AboutUsMission = () => {
                   type: "ease-in",
                 }}
               >
-                Our <br />
-                Mission
+                Future <br />
+                Aim
               </motion.h1>
             </div>
             <div className="flexColEnd secondaryText flexhero-des">
               <div className="mission-text">
-                Horizon BVP is dedicated to cultivating the next generation of
+                In charting our course forward, Horizon BVP is steadfast in its
                 <br />
-                leaders and changemakers through immersive Model United Nations
+                commitment to broadening its influence and impact. Through
                 <br />
-                (MUN) experiences, engaging debates and impactful initiatives.
+                targeted community outreach initiatives, we aim to extend the
                 <br />
-                Our mission is to provide a platform for students to develop
+                reach of our society by organizing debates, workshops, and
                 <br />
-                essential skills such as critical thinking, public speaking, and
+                events in local schools and communities, nurturing the next
                 <br />
-                cultural understanding, while fostering a sense of community and
+                generation of debaters and critical thinkers. Concurrently, our
                 <br />
-                mutual respect. By empowering individuals to engage in
+                participation in intercollegiate debating competitions serves to
                 <br />
-                meaningful dialogue and address pressing global issues, we
+                elevate our presence on the national and international stage,
                 <br />
-                strive to cultivate a culture of empathy, cooperation, and
-                <br />
-                social responsibility within our society and beyond.
+                showcasing the exemplary skills of our members.
               </div>
             </div>
           </div>
@@ -71,4 +69,4 @@ const AboutUsMission = () => {
   );
 };
 
-export default AboutUsMission;
+export default AboutUsFuture;

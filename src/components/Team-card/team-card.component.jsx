@@ -24,15 +24,21 @@ const TeamCard = ({ team }) => {
           <div className="team-job">{role}</div>
         </div>
         <div className="team-media-icons">
-          <a href={linkedin}>
-            <i className="fab fa-linkedin"></i>
-          </a>
-          <a href={instagram}>
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href={github}>
-            <i className="fab fa-github"></i>
-          </a>
+          {linkedin && (
+            <a href={linkedin}>
+              <i className="fab fa-linkedin"></i>
+            </a>
+          )}
+          {instagram && (
+            <a href={instagram}>
+              <i className="fab fa-instagram"></i>
+            </a>
+          )}
+          {github && (
+            <a href={github}>
+              <i className="fab fa-github"></i>
+            </a>
+          )}
         </div>
       </div>
     </div>

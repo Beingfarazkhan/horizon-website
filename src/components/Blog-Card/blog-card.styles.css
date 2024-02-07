@@ -35,8 +35,20 @@
   .tag-pink {
     background-color: #c62bcd;
   }
+  .tag-orange {
+    background-color: orange;
+  }
+  .tag-yellow {
+    background-color: yellow;
+  }
   .tag-gray {
     background-color: gray;
+  }
+  .tag-green {
+    background-color: green;
+  }
+  .tag-blue {
+    background-color: blue;
   }
   .blog-card-body h4 {
     margin: 10px 0;

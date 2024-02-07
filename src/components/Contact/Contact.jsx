@@ -33,11 +33,11 @@ const Contact = () => {
                     </div>
                     <div className="flexColStart detail">
                       <span className="primaryText">Call</span>
-                      <span className="secondaryText">+91 9711663791</span>
+                      <span className="secondaryText">+91 8595760744</span>
                     </div>
                   </div>
                   <Link
-                    href="tel:+919711663791"
+                    href="tel:+8595760744"
                     sx={{ textDecoration: "none" }}
                     className="flexCenter button"
                   >

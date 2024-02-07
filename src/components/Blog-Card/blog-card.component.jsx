@@ -13,7 +13,7 @@ const BlogCard = ({ blog, tagType }) => {
       <div className="blog-card-body">
         <span className={`tag tag-${tagType}`}>{tag}</span>
         <h4>{title}</h4>
-        <p>{content}</p>
+        <p>{` ${content.split(" ").splice(0, 20).join(" ")}...`}</p>
         <div className="user">
           <img src={userImage} alt={userName} />
           <Box

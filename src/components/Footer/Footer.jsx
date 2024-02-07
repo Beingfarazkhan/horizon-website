@@ -92,11 +92,21 @@ const Footer = () => {
               develop critical thinking
             </div>
             <div className="footer-social">
-              <FacebookIcon className="icon-hover" />
-              <InstagramIcon className="icon-hover" />
-              <XIcon className="icon-hover" />
-              <LinkedInIcon className="icon-hover" />
-              <YouTubeIcon className="icon-hover" />
+              <a href="https://facebook.com/" target="blank">
+                <FacebookIcon className="icon-hover" />
+              </a>
+              <a href="https://instagram.com/horizonbvp" target="blank">
+                <InstagramIcon className="icon-hover" />
+              </a>
+              <a href="https://x.com/" target="blank">
+                <XIcon className="icon-hover" />
+              </a>
+              <a href="https://linkedin.com/" target="blank">
+                <LinkedInIcon className="icon-hover" />
+              </a>
+              <a href="https://youtube.com/" target="blank">
+                <YouTubeIcon className="icon-hover" />
+              </a>
             </div>
           </div>
 

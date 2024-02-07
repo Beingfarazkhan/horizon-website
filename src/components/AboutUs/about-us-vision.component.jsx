@@ -27,26 +27,25 @@ const AboutUsVision = () => {
             </div>
             <div className="flexColStart secondaryText flexhero-des">
               <span className="description-text">
-                Horizon-BVP stands as the vibrant debating society of BVCOE,
+                To foster a dynamic community of critical thinkers, global
                 <br />
-                with a dedicated mission to cultivate a rich culture of debating
+                citizens, and empathetic eaders who inspire positive change on
                 <br />
-                and world press activities. More than just a society, we are an
+                both local and global scales. Horizon BVP envisions a world
                 <br />
-                experience-sharing platform where the camaraderie among seasoned
+                where diplomacy, dialogue, and collaboration prevail, paving the
                 <br />
-                debaters leads to the development of aspiring speakers.
+                way for a brighter and more inclusive future.
                 <br />
-                Our focus goes beyond competition, emphasizing collaborative
-                growth
+                Through our commitment to cultivating cross-cultural
                 <br />
-                through engaging events, workshops, and mentorship programs.
+                understanding, promoting empathy, and empowering individuals to
                 <br />
-                At Horizon-BVP, we believe in nurturing not just debating skills
+                address complex challenges, we aim to build bridges of
                 <br />
-                but also fostering effective communication, critical thinking,
+                cooperation and solidarity across borders, cultures, and
                 <br />
-                and global awareness among our members.
+                perspectives, ultimately shaping a better world
               </span>
             </div>
           </div>

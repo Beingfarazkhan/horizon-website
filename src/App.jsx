@@ -15,6 +15,7 @@ import HorizonWomen from "./components/HorizonWomen/horizon-women.component";
 import Faq from "./components/Faq/faq.component";
 import HomeCoreTeam from "./components/Home/home-core-team.component";
 import AboutUsHero from "./components/AboutUs/about-us-hero.component";
+import AboutUsMission from "./components/AboutUs/about-us-mission.component";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
                   <div className="white-gradient" />
                   <AboutUsHero />
                 </div>
-
+                <AboutUsMission />
                 <HomeCoreTeam />
                 {/* <Residencies /> */}
                 <Faq />

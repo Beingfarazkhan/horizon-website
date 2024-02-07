@@ -22,7 +22,7 @@ if (window.innerWidth >= 900) {
 
 const Podcast = () => {
   const [url, setUrl] = useState(
-    "https://www.youtube.com/embed/cbkD2HnFmMs?si=NJN1_V329cMe"
+    "https://www.youtube.com/watch?v=YvumPfGPM6c&ab_channel=InternationalGlobalNetwork"
   );
 
   const changeUrl = (url) => {
@@ -46,6 +46,7 @@ const Podcast = () => {
         alignItems={"center"}
       >
         <ReactPlayer
+          style={{ border: "5px solid white", borderRadius: "10px" }}
           controls={true}
           light={true}
           height={heightAdjust}
