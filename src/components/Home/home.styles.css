@@ -1,0 +1,67 @@
+.high-z {
+  z-index: 100;
+}
+  .container {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  #canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay {
+    width: 90%;
+    height: 90%;
+    margin: 50px auto;
+    z-index: 9;
+    background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .main-logo-container {
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+  }
+  .main-logo-container>img{
+      width: 100%;
+      height: 100%;
+  }
+
+  @media  (max-width: 640px){
+    .main-logo-container{
+      width: 25rem;
+      height: 25rem;
+    }
+    
+  }
+  @media  (max-width: 460px){
+    .main-logo-container{
+      width: 20rem;
+      height: 20rem;
+    }
+    
+  }
+  @media  (max-width: 370px){
+    .main-logo-container{
+      width: 15rem;
+      height: 15rem;
+    }
+    
+  }

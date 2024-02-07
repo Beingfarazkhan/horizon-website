@@ -1,0 +1,22 @@
+.blog-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.blog-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 980px;
+    margin: auto;
+  }
+
+  @media (max-width: 940px) {
+    .blog-cards-container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }

@@ -1,0 +1,25 @@
+
+  .podcast-container {
+    background-color: black;
+  }
+
+  .podcast-header {
+    position: relative;
+    text-align: center;
+  }
+
+  .podcast-header-text {
+    position: absolute;
+    color: #000;
+    font-size: 5vw;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: 768px) {
+    .podcast-header-text {
+      font-size: 10vw;
+    }
+    
+  }

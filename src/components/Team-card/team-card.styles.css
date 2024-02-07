@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.team-container{
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+    font-family: 'Poppins',sans-serif;
+  }
+  .team-container .team-main-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition: 1s;
+  }
+  
+  .team-container .team-main-card .team-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: space-around;
+  }
+  .team-main-card .team-cards .team-card{
+    width: calc(100% / 3 - 10px);/**/
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+  }
+  .team-main-card .team-cards .team-card:hover{
+    transform: translateY(-15px);
+  }
+  .team-cards .team-card .team-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .team-cards .team-card .team-content .team-img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    background: var(--blue-gradient);
+    margin-bottom: 14px;
+  }
+  .team-card {
+    margin:0 5px 15px 5px;
+    border: 2px solid black;
+  
+  }
+  .team-card .team-content .team-img img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .team-card .team-content .team-name{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .team-card .team-content .team-job{
+    font-size: 20px;
+    color:blue;
+  }
+  .team-card .team-content .team-media-icons{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .team-media-icons a{
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: blue;
+    transition: all 0.3s ease;
+  }
+  .team-media-icons a:hover{
+    color: blue;
+    background-color: #fff;
+    border-color: blue;
+  }
+  
+  @media (max-width: 768px) {
+    .team-main-card .team-cards .team-card{
+        margin: 20px 0 10px 0;
+      width: calc(100% / 2 - 10px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .team-main-card .team-cards .team-card{
+      /* margin: 20px 0 10px 0; */
+        width: 100%;
+    }
+  }

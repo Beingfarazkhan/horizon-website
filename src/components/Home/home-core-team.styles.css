@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.core-team-body{
+    background-color: black;
+    padding-top: 40px;
+}
+
+.white-heading{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+@media (max-width: 640px){
+    .white-heading{
+        font-size: 2.5rem;
+    }
+}
