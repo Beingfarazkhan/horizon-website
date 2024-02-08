@@ -1,4 +1,4 @@
-import logo from "../../public/horizonLogo.png";
+import logo from "../assets/horizonLogo.png";
 import sectionOne from "./sectionOne.svg";
 
 const img = logo;

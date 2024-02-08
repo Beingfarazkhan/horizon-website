@@ -4,7 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
-import womenEmpowerment from "../../../assets/womenEmpowerment.svg?react";
+import womenVision from "../../../assets/womenVision.png?react";
 import "./horizon-women-vision.styles.css";
 
 const HorizonWomenVision = () => {
@@ -23,7 +23,7 @@ const HorizonWomenVision = () => {
               }}
               className="vision-image-container"
             >
-              <img src="../../../assets/womenVision.png" alt="women" />
+              <img src={womenVision} alt="women" />
             </motion.div>
           </div>
           {/* right side */}

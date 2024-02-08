@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "@mui/system";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import aboutUsVision from "../../assets/vision.png?react";
 import "./about-us-vision.styles.css";
 
 const AboutUsVision = () => {
@@ -61,7 +62,7 @@ const AboutUsVision = () => {
               }}
               className="about-us-image-container"
             >
-              <img src="../../assets/vision.png" alt="About Us" />
+              <img src={aboutUsVision} alt="About Us" />
             </motion.div>
           </div>
         </div>

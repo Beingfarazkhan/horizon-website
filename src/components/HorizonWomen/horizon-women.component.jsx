@@ -6,6 +6,7 @@ import HorizonWomenVision from "./Vision/horizon-women-vision";
 import HorizonWomenHead from "./Head/horizon-women-head.component";
 import TeamCard from "../Team-card/team-card.component";
 import HorizonWomenFuture from "./Future/horizon-women-future.component";
+import womenDeptBlack from "../../assets/womenDept2Black.png?react";
 
 const HorizonWomen = () => {
   const colors = ["#fc6c85", "#ff007f", "#ffd1dc", "#ff6ec7"];
@@ -13,7 +14,7 @@ const HorizonWomen = () => {
     <>
       <section className="horizon-women-container">
         <div className="h-women-image-container">
-          <img src="../../assets/womenDept2Black.png" alt="Horizon Women" />
+          <img src={womenDeptBlack} alt="Horizon Women" />
         </div>
         <ParticlesBg
           type="circle"

@@ -9,6 +9,7 @@ import AnnouncementIcon from "@mui/icons-material/Announcement";
 import { Box, Link as MuiLink } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
+import horizonTypoWhite from "../..//assets/horizonTypoWhite.png";
 
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../utils/common";
@@ -84,7 +85,7 @@ const Footer = () => {
         <div className="footer-row footer-primary">
           <div className="footer-column footer-about">
             <h3 className="footer-logo">
-              <img src="../..//assets/horizonTypoWhite.png" alt="Horizon" />
+              <img src={horizonTypoWhite} alt="Horizon" />
             </h3>
             <div>
               Fostering global understanding and diplomacy empowering students

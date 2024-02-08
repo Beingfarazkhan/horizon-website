@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "@mui/system";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import aboutUsHero from "../../assets/aboutUsTeam.png?react";
 import "./about-us-hero.styles.css";
 
 const AboutUsHero = () => {
@@ -63,7 +64,7 @@ const AboutUsHero = () => {
               }}
               className="about-us-image-container"
             >
-              <img src="../../assets/aboutUsTeam.png" alt="About Us" />
+              <img src={aboutUsHero} alt="About Us" />
             </motion.div>
           </div>
         </div>

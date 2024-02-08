@@ -4,7 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
-import womenEmpowerment from "../../../assets/womenEmpowerment.svg?react";
+import womenEmpowerment from "../../../assets/womenEmpowerment.png?react";
 import "./horizon-w-about.styles.css";
 
 const HorizonWomenAboutUs = () => {
@@ -63,7 +63,7 @@ const HorizonWomenAboutUs = () => {
               }}
               className="image-container"
             >
-              <img src="../../../assets/womenEmpowerment.png" alt="women" />
+              <img src={womenEmpowerment} alt="women" />
             </motion.div>
           </div>
         </div>

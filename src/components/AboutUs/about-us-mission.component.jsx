@@ -4,6 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import aboutUsMission from "../../assets/mission.png?react";
 import "./about-us-mission.styles.css";
 
 const AboutUsMission = () => {
@@ -22,7 +23,7 @@ const AboutUsMission = () => {
               }}
               className="mission-image-container"
             >
-              <img src="../../assets/mission.png" alt="mission" />
+              <img src={aboutUsMission} alt="mission" />
             </motion.div>
           </div>
           {/* right side */}

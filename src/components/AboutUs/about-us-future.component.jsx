@@ -4,6 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import aboutUsFuture from "../../assets/futureAim.png?react";
 import "./about-us-mission.styles.css";
 
 const AboutUsFuture = () => {
@@ -22,7 +23,7 @@ const AboutUsFuture = () => {
               }}
               className="mission-image-container"
             >
-              <img src="../../assets/futureAim.png" alt="Future" />
+              <img src={aboutUsFuture} alt="Future" />
             </motion.div>
           </div>
           {/* right side */}

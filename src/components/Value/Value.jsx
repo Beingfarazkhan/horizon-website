@@ -13,6 +13,7 @@ import {
   MdOutlineArrowDropDownCircle,
 } from "react-icons/md";
 import data from "../../utils/accordion.jsx";
+import faqImage from "../../assets/faqImage.png?react";
 import "./Value.css";
 // Demo styles, see 'Styles' section below for some notes on use.
 
@@ -28,7 +29,7 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="../../assets/faqImage.png" alt="FAQ" />
+            <img src={faqImage} alt="FAQ" />
           </div>
         </div>
 
