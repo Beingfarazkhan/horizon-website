@@ -12,61 +12,58 @@ const AboutUsHero = () => {
         <div className="paddings innerWidth flexCenter hero-container">
           {/* left side */}
           <div className="flexColStart hero-left">
-            <div className="hero-title">
-              <div className="orange-circle" />
-              <motion.h1
-                initial={{ y: "2rem", opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
+            <Fade direction="left">
+              <div className="hero-title">
+                <div className="orange-circle" />
+                <motion.h1
+                  initial={{ y: "2rem", opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{
+                    duration: 2,
+                    type: "ease-in",
+                  }}
+                >
+                  About <br />
+                  Horizon
+                  <br /> BVP
+                </motion.h1>
+              </div>
+            </Fade>
+            <Fade
+              direction="up"
+              className="flexColStart secondaryText flexhero-des"
+            >
+              <span className="hero-description-text">
+                Horizon-BVP stands as the vibrant debating society of BVCOE,
+                with a dedicated mission to cultivate a rich culture of debating
+                and world press activities. More than just a society, we are an
+                experience-sharing platform where the camaraderie among seasoned
+                debaters leads to the development of aspiring speakers. Our
+                focus goes beyond competition, emphasizing collaborative growth
+                through engaging events, workshops, and mentorship programs. At
+                Horizon-BVP, we believe in nurturing not just debating skills
+                but also fostering effective communication, critical thinking,
+                and global awareness among our members.
+              </span>
+            </Fade>
+          </div>
+
+          {/* right side */}
+          <Fade direction="right">
+            <div className="flexCenter hero-right">
+              <motion.div
+                initial={{ x: "7rem", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
                 transition={{
                   duration: 2,
                   type: "ease-in",
                 }}
+                className="about-us-image-container"
               >
-                About <br />
-                Horizon
-                <br /> BVP
-              </motion.h1>
+                <img src={aboutUsHero} alt="About Us" />
+              </motion.div>
             </div>
-            <div className="flexColStart secondaryText flexhero-des">
-              <span className="description-text">
-                Horizon-BVP stands as the vibrant debating society of BVCOE,
-                <br />
-                with a dedicated mission to cultivate a rich culture of debating
-                <br />
-                and world press activities. More than just a society, we are an
-                <br />
-                experience-sharing platform where the camaraderie among seasoned
-                <br />
-                debaters leads to the development of aspiring speakers.
-                <br />
-                Our focus goes beyond competition, emphasizing collaborative
-                growth
-                <br />
-                through engaging events, workshops, and mentorship programs.
-                <br />
-                At Horizon-BVP, we believe in nurturing not just debating skills
-                <br />
-                but also fostering effective communication, critical thinking,
-                <br />
-                and global awareness among our members.
-              </span>
-            </div>
-          </div>
-
-          {/* right side */}
-          <div className="flexCenter hero-right">
-            <motion.div
-              initial={{ x: "7rem", opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                duration: 2,
-                type: "ease-in",
-              }}
-              className="about-us-image-container"
-            >
-              <img src={aboutUsHero} alt="About Us" />
-            </motion.div>
-          </div>
+          </Fade>
         </div>
       </section>
     </Box>

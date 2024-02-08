@@ -6,6 +6,7 @@ import { HiChatBubbleBottomCenter } from "react-icons/hi2";
 import { IoLogoWhatsapp, IoIosMail } from "react-icons/io";
 import { SiGoogleforms } from "react-icons/si";
 import { Link } from "@mui/material";
+import { Bounce, Fade, Slide } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
@@ -22,8 +23,7 @@ const Contact = () => {
               friendly support, or to explore collaboration opportunities. We're
               here to help{" "}
             </span>
-
-            <div className="flexColStart contactModes">
+            <Fade direction="left" className="flexColStart contactModes">
               {/* first row */}
               <div className="flexStart row">
                 <div className="flexColCenter mode">
@@ -107,11 +107,11 @@ const Contact = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </Fade>
           </div>
 
           {/* right side */}
-          <div className="flexEnd c-right">
+          <Fade direction="right" className="flexEnd c-right">
             <div className="map-container">
               <iframe
                 title="Google Map"
@@ -124,7 +124,7 @@ const Contact = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
     </Fragment>

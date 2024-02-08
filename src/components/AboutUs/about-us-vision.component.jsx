@@ -12,59 +12,57 @@ const AboutUsVision = () => {
         <div className="paddings innerWidth flexCenter hero-container">
           {/* left side */}
           <div className="flexColStart hero-left">
-            <div className="hero-title">
-              <div className="orange-circle" />
-              <motion.h1
-                initial={{ y: "2rem", opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
+            <Fade direction="left">
+              <div className="hero-title">
+                <div className="orange-circle" />
+                <motion.h1
+                  initial={{ y: "2rem", opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{
+                    duration: 2,
+                    type: "ease-in",
+                  }}
+                >
+                  Our <br />
+                  Vision
+                </motion.h1>
+              </div>
+            </Fade>
+            <Fade
+              direction="up"
+              className="flexColStart secondaryText flexhero-des"
+            >
+              <span className="vision-description-text">
+                To foster a dynamic community of critical thinkers, global
+                citizens, and empathetic eaders who inspire positive change on
+                both local and global scales. Horizon BVP envisions a world
+                where diplomacy, dialogue, and collaboration prevail, paving the
+                way for a brighter and more inclusive future. Through our
+                commitment to cultivating cross-cultural understanding,
+                promoting empathy, and empowering individuals to address complex
+                challenges, we aim to build bridges of cooperation and
+                solidarity across borders, cultures, and perspectives,
+                ultimately shaping a better world
+              </span>
+            </Fade>
+          </div>
+
+          {/* right side */}
+          <Fade direction="right">
+            <div className="flexCenter hero-right">
+              <motion.div
+                initial={{ x: "7rem", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
                 transition={{
                   duration: 2,
                   type: "ease-in",
                 }}
+                className="about-us-image-container"
               >
-                Our <br />
-                Vision
-              </motion.h1>
+                <img src={aboutUsVision} alt="About Us" />
+              </motion.div>
             </div>
-            <div className="flexColStart secondaryText flexhero-des">
-              <span className="description-text">
-                To foster a dynamic community of critical thinkers, global
-                <br />
-                citizens, and empathetic eaders who inspire positive change on
-                <br />
-                both local and global scales. Horizon BVP envisions a world
-                <br />
-                where diplomacy, dialogue, and collaboration prevail, paving the
-                <br />
-                way for a brighter and more inclusive future.
-                <br />
-                Through our commitment to cultivating cross-cultural
-                <br />
-                understanding, promoting empathy, and empowering individuals to
-                <br />
-                address complex challenges, we aim to build bridges of
-                <br />
-                cooperation and solidarity across borders, cultures, and
-                <br />
-                perspectives, ultimately shaping a better world
-              </span>
-            </div>
-          </div>
-
-          {/* right side */}
-          <div className="flexCenter hero-right">
-            <motion.div
-              initial={{ x: "7rem", opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                duration: 2,
-                type: "ease-in",
-              }}
-              className="about-us-image-container"
-            >
-              <img src={aboutUsVision} alt="About Us" />
-            </motion.div>
-          </div>
+          </Fade>
         </div>
       </section>
     </Box>

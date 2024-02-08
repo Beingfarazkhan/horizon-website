@@ -11,6 +11,7 @@
   .mission-text{
     color: black;
     text-align: right;
+    width: 500px;
   }
   
   .hero-container {
@@ -90,7 +91,7 @@
     }
     .mission-image-container{
       width: 95%;
-      height: 25rem;
+      height: 20rem;
     }
     .stats{
       justify-content: center;

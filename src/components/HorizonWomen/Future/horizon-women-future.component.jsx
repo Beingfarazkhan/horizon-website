@@ -32,20 +32,13 @@ const HorizonWomenFuture = () => {
             <div className="flexColStart secondaryText flexhero-des">
               <span className="future-description-text">
                 Our aim at Horizon Women's Department is to empower and equip
-                <br />
                 women at BVCOE for success in academia and beyond. We envision
-                <br />
                 achieving this by expanding mentorship programs, hosting
-                skill-building
-                <br />
-                workshops, and fostering a collaborative environment that
-                promotes inclusivity.
-                <br />
-                Our goal is to contribute to a future where every woman
-                <br />
-                not only breaks barriers but excels as a confident and
-                <br />
-                influential leader. Through strategic initiatives and advocacy.
+                skill-building workshops, and fostering a collaborative
+                environment that promotes inclusivity. Our goal is to contribute
+                to a future where every woman not only breaks barriers but
+                excels as a confident and influential leader. Through strategic
+                initiatives and advocacy.
                 <br />
               </span>
             </div>

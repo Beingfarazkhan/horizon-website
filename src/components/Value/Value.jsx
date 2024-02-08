@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Bounce, Fade } from "react-awesome-reveal";
 import {
   Accordion,
   AccordionItem,
@@ -27,11 +28,13 @@ const Value = () => {
     <section id="value" className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
-        <div className="v-left">
-          <div className="image-container">
-            <img src={faqImage} alt="FAQ" />
+        <Fade direction="left">
+          <div className="v-left">
+            <div className="image-container">
+              <img src={faqImage} alt="FAQ" />
+            </div>
           </div>
-        </div>
+        </Fade>
 
         {/* right */}
         <div className="flexColStart v-right">
@@ -55,39 +58,41 @@ const Value = () => {
             {data.map((item, i) => {
               const [className, setClassName] = useState(null);
               return (
-                <AccordionItem
-                  className={`accordionItem ${className}`}
-                  uuid={i}
-                  key={i}
-                >
-                  <AccordionItemHeading>
-                    <AccordionItemButton className="flexCenter accordionButton ">
-                      {/* just for getting state of item */}
-                      <AccordionItemState>
-                        {({ expanded }) =>
-                          expanded
-                            ? setClassName("expanded")
-                            : setClassName("collapsed")
-                        }
-                      </AccordionItemState>
-                      <div className="flexCenter icon">{item.icon}</div>
-                      <span className="accordion-heading primaryText">
-                        {item.heading}
-                      </span>
-                      {displayIcon && (
-                        <div className="flexCenter icon">
-                          <MdOutlineArrowDropDown
-                            className="arrow-icon"
-                            size={20}
-                          />
-                        </div>
-                      )}
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p className="secondaryText">{item.detail}</p>
-                  </AccordionItemPanel>
-                </AccordionItem>
+                <Fade direction="up" key={i}>
+                  <AccordionItem
+                    className={`accordionItem ${className}`}
+                    uuid={i}
+                    key={i}
+                  >
+                    <AccordionItemHeading>
+                      <AccordionItemButton className="flexCenter accordionButton ">
+                        {/* just for getting state of item */}
+                        <AccordionItemState>
+                          {({ expanded }) =>
+                            expanded
+                              ? setClassName("expanded")
+                              : setClassName("collapsed")
+                          }
+                        </AccordionItemState>
+                        <div className="flexCenter icon">{item.icon}</div>
+                        <span className="accordion-heading primaryText">
+                          {item.heading}
+                        </span>
+                        {displayIcon && (
+                          <div className="flexCenter icon">
+                            <MdOutlineArrowDropDown
+                              className="arrow-icon"
+                              size={20}
+                            />
+                          </div>
+                        )}
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <p className="secondaryText">{item.detail}</p>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                </Fade>
               );
             })}
           </Accordion>

@@ -10,6 +10,7 @@
   }
   .mission-text{
     color: black;
+    width: 500px;
     text-align: right;
   }
   
@@ -90,7 +91,7 @@
     }
     .mission-image-container{
       width: 95%;
-      height: 25rem;
+      height: 20rem;
     }
     .stats{
       justify-content: center;
@@ -103,5 +104,10 @@
     .stat>:nth-child(2)
     {
       font-size: 0.8rem;
+    }
+    .mission-text{
+      width: 90%;
+      text-align: left;
+      margin-right: 10px;
     }
   }

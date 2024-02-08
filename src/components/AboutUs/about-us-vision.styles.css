@@ -41,7 +41,11 @@
     z-index: -1;
   }
   /* right side */
-  
+  .vision-description-text{
+    color: white;
+    width: 500px;
+    text-align: left;
+  }
   .about-us-image-container {
     width: 30rem;
     height: 35rem;
@@ -64,7 +68,10 @@
     }
     .about-us-image-container{
       width: 95%;
-      height: 25rem;
+      height: 20rem;
     }
-    
+    .vision-description-text{
+      width: 90%;
+      margin-left: 10px;
+    }
   }

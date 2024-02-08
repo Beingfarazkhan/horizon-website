@@ -10,6 +10,7 @@
   }
   .future-description-text{
     color: black;
+    width: 500px;
   }
   
   .hero-container {
@@ -89,7 +90,7 @@
     }
     .future-image-container{
       width: 90%;
-      height: 25rem;
+      height: 20rem;
     }
     .stats{
       justify-content: center;
@@ -102,5 +103,10 @@
     .stat>:nth-child(2)
     {
       font-size: 0.8rem;
+    }
+    .future-description-text{
+      width: 90%;
+      text-align: left;
+      margin-left: 10px;
     }
   }

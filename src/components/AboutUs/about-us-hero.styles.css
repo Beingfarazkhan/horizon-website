@@ -10,6 +10,12 @@
   }
   .description-text{
     color: white;
+    width: 500px;
+  }
+  .hero-description-text{
+    color: white;
+    width: 500px;
+    text-align: left;
   }
   
   .hero-container {
@@ -64,7 +70,18 @@
     }
     .about-us-image-container{
       width: 95%;
-      height: 25rem;
+      height: 20rem;
     }
+    .description-text{
+      width: 90%;
+      text-align: left;
+      margin-left: 10px;
+    }
+    .hero-description-text{
+      width: 90%;
+      text-align: left;
+      margin-left: 10px;
+    }
+
     
   }

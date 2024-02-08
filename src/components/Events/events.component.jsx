@@ -16,7 +16,7 @@ const Events = () => {
     >
       {" "}
       <div className="white-heading">Page Under Construction</div>
-      <div className="image-container">
+      <div className="events-image-container">
         <img src={pageUnderConstruction} alt="Page Under Construction" />
       </div>
     </Box>

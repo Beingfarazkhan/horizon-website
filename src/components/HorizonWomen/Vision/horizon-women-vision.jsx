@@ -45,27 +45,15 @@ const HorizonWomenVision = () => {
             <div className="flexColEnd secondaryText flexhero-des">
               <div className="vision-text">
                 At Horizon Women's Department, we envision a future where every
-                <br />
                 woman at BVCOE stands tall, empowered, and equipped with the
-                <br />
                 tools to navigate and conquer the challenges of our rapidly
-                evolving world.
-                <br />
-                Our vision is to cultivate a supportive and inclusive community
-                that fosters
-                <br />
-                the growth and success of women, both academically and
-                personally.
-                <br />
-                We aspire to be a driving force for positive change by promoting
-                gender equality,
-                <br />
+                evolving world. Our vision is to cultivate a supportive and
+                inclusive community that fosters the growth and success of
+                women, both academically and personally. We aspire to be a
+                driving force for positive change by promoting gender equality,
                 breaking down barriers, and inspiring women to embrace
-                leadership roles
-                <br />
-                aim to inspire leadership, promote gender equality, and create a
-                <br />
-                supportive network for all members.
+                leadership roles aim to inspire leadership, promote gender
+                equality, and create a supportive network for all members.
               </div>
             </div>
           </div>

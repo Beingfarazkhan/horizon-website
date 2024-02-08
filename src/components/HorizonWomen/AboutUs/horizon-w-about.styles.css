@@ -10,6 +10,7 @@
   }
   .description-text{
     color: white;
+    width: 500px;
   }
   
   .hero-container {
@@ -76,6 +77,10 @@
       width: 100%;
       height: 100%;
   }
+  .women-description-text{
+    color: white;
+      width: 500px;
+  }
   
   /* mobile screens */
   @media  (max-width: 640px){
@@ -88,7 +93,7 @@
     }
     .image-container{
       width: 95%;
-      height: 25rem;
+      height: 20rem;
     }
     .stats{
       justify-content: center;
@@ -101,5 +106,9 @@
     .stat>:nth-child(2)
     {
       font-size: 0.8rem;
+    }
+    .women-description-text{
+      width: 90%;
+      margin-left: 10px;
     }
   }

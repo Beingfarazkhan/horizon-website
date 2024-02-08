@@ -1,0 +1,21 @@
+.events-image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+  }
+  .events-image-container>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+  
+  /* mobile screens */
+  @media  (max-width: 640px){
+    
+    .events-image-container{
+      width: 95%;
+      height: 20rem;
+    }
+    
+  }

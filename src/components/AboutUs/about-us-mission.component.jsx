@@ -13,58 +13,56 @@ const AboutUsMission = () => {
       <section className="mission-wrapper">
         <div className="paddings innerWidth flexCenter hero-container">
           {/* left side */}
-          <div className="flexCenter hero-left">
-            <motion.div
-              initial={{ x: "7rem", opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{
-                duration: 2,
-                type: "ease-in",
-              }}
-              className="mission-image-container"
-            >
-              <img src={aboutUsMission} alt="mission" />
-            </motion.div>
-          </div>
-          {/* right side */}
-          <div className="flexColEnd hero-left">
-            <div className="hero-title">
-              <div className="orange-circle" />
-              <motion.h1
-                initial={{ y: "2rem", opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
+          <Fade direction="left">
+            <div className="flexCenter hero-left">
+              <motion.div
+                initial={{ x: "7rem", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
                 transition={{
                   duration: 2,
                   type: "ease-in",
                 }}
+                className="mission-image-container"
               >
-                Our <br />
-                Mission
-              </motion.h1>
+                <img src={aboutUsMission} alt="mission" />
+              </motion.div>
             </div>
-            <div className="flexColEnd secondaryText flexhero-des">
+          </Fade>
+          {/* right side */}
+          <div className="flexColEnd hero-left">
+            <Fade direction="right">
+              <div className="hero-title">
+                <div className="orange-circle" />
+                <motion.h1
+                  initial={{ y: "2rem", opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{
+                    duration: 2,
+                    type: "ease-in",
+                  }}
+                >
+                  Our <br />
+                  Mission
+                </motion.h1>
+              </div>
+            </Fade>
+            <Fade
+              direction="up"
+              className="flexColEnd secondaryText flexhero-des"
+            >
               <div className="mission-text">
                 Horizon BVP is dedicated to cultivating the next generation of
-                <br />
                 leaders and changemakers through immersive Model United Nations
-                <br />
                 (MUN) experiences, engaging debates and impactful initiatives.
-                <br />
                 Our mission is to provide a platform for students to develop
-                <br />
                 essential skills such as critical thinking, public speaking, and
-                <br />
                 cultural understanding, while fostering a sense of community and
-                <br />
                 mutual respect. By empowering individuals to engage in
-                <br />
                 meaningful dialogue and address pressing global issues, we
-                <br />
                 strive to cultivate a culture of empathy, cooperation, and
-                <br />
                 social responsibility within our society and beyond.
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </section>

@@ -16,86 +16,99 @@ import Faq from "./components/Faq/faq.component";
 import HomeCoreTeam from "./components/Home/home-core-team.component";
 import AboutUsHero from "./components/AboutUs/about-us-hero.component";
 import AboutUsMission from "./components/AboutUs/about-us-mission.component";
+import Loader from "./components/Loader/loader.component";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [loading, setIsLoading] = useState(false);
+  useEffect(() => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3500);
+  }, []);
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Navigation />}>
-          <Route
-            index
-            element={
-              <div className="landing-container">
-                <div>
-                  <Home />
-                  <div className="white-gradient" />
-                  <AboutUsHero />
+      {loading ? (
+        <Loader loading={loading} />
+      ) : (
+        <Routes>
+          <Route path="/" element={<Navigation />}>
+            <Route
+              index
+              element={
+                <div className="landing-container">
+                  <div>
+                    <Home />
+                    <div className="white-gradient" />
+                    <AboutUsHero />
+                  </div>
+                  <AboutUsMission />
+                  <HomeCoreTeam />
+                  {/* <Residencies /> */}
+                  <Faq />
+                  <Contact />
+                  <Footer />
                 </div>
-                <AboutUsMission />
-                <HomeCoreTeam />
-                {/* <Residencies /> */}
-                <Faq />
-                <Contact />
-                <Footer />
-              </div>
-            }
-          />
-          <Route
-            path="about-us"
-            element={
-              <>
-                <AboutUs />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="events"
-            element={
-              <>
-                <Events />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="blogs"
-            element={
-              <>
-                <Blogs />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="horizon-women"
-            element={
-              <>
-                <HorizonWomen />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="faq"
-            element={
-              <>
-                <Faq />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="contact"
-            element={
-              <>
-                <Contact />
-                <Footer />
-              </>
-            }
-          />
-        </Route>
-      </Routes>
+              }
+            />
+            <Route
+              path="about-us"
+              element={
+                <>
+                  <AboutUs />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="events"
+              element={
+                <>
+                  <Events />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="blogs"
+              element={
+                <>
+                  <Blogs />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="horizon-women"
+              element={
+                <>
+                  <HorizonWomen />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="faq"
+              element={
+                <>
+                  <Faq />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="contact"
+              element={
+                <>
+                  <Contact />
+                  <Footer />
+                </>
+              }
+            />
+          </Route>
+        </Routes>
+      )}
     </div>
   );
 }

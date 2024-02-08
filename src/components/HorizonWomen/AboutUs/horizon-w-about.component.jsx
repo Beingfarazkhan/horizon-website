@@ -30,23 +30,15 @@ const HorizonWomenAboutUs = () => {
               </motion.h1>
             </div>
             <div className="flexColStart secondaryText flexhero-des">
-              <span className="description-text">
+              <span className="women-description-text">
                 Horizon Women's Department is a dedicated and empowering
-                <br />
                 community within Horizon BVP that seeks to champion the voices
-                <br />
                 and aspirations of women at BVCOE. Committed to fostering an
-                <br />
                 inclusive environment, the Women's Department organizes events,
-                <br />
                 discussions, and initiatives that address the unique experiences
-                <br />
                 and challenges faced by women in today's world. Through engaging
-                <br />
                 activities, mentorship programs, and collaborative projects, we
-                <br />
                 aim to inspire leadership, promote gender equality, and create a
-                <br />
                 supportive network for all members.
               </span>
             </div>
