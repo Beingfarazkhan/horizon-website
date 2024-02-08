@@ -1,4 +1,5 @@
 import React from "react";
+import "./events.styles.css";
 import { Box } from "@mui/material";
 import pageUnderConstruction from "../../assets/pageUnderConstruction.png?react";
 
