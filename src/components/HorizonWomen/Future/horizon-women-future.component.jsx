@@ -63,7 +63,7 @@ const HorizonWomenFuture = () => {
               }}
               className="future-image-container"
             >
-              <img src="../../../../public/womenFuture.png" alt="women" />
+              <img src="../../../assets/womenFuture.png" alt="women" />
             </motion.div>
           </div>
         </div>

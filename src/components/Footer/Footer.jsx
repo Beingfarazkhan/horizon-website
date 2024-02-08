@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="footer-row footer-primary">
           <div className="footer-column footer-about">
             <h3 className="footer-logo">
-              <img src="../../../public/horizonTypoWhite.png" alt="Horizon" />
+              <img src="../..//assets/horizonTypoWhite.png" alt="Horizon" />
             </h3>
             <div>
               Fostering global understanding and diplomacy empowering students

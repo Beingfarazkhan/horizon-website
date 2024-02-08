@@ -13,7 +13,7 @@ const HorizonWomen = () => {
     <>
       <section className="horizon-women-container">
         <div className="h-women-image-container">
-          <img src="../../../public/womenDept2Black.png" alt="Horizon Women" />
+          <img src="../../assets/womenDept2Black.png" alt="Horizon Women" />
         </div>
         <ParticlesBg
           type="circle"

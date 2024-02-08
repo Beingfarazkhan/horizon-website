@@ -3,7 +3,7 @@ import ParticleBg from "particles-bg";
 import { Box } from "@mui/material";
 import Particles from "../Canvas/Particles";
 import Canvas from "../Canvas/Canvas";
-import logo from "../../../public/logo.png";
+import logo from "../../assets/logo.png";
 
 const Home = () => {
   const colors = ["#0FF0FC", "#1F51FF", "#39FF14"];

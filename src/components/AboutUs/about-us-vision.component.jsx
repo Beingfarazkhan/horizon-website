@@ -61,7 +61,7 @@ const AboutUsVision = () => {
               }}
               className="about-us-image-container"
             >
-              <img src="../../../public/vision.png" alt="About Us" />
+              <img src="../../assets/vision.png" alt="About Us" />
             </motion.div>
           </div>
         </div>

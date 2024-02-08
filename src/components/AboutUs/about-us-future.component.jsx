@@ -22,7 +22,7 @@ const AboutUsFuture = () => {
               }}
               className="mission-image-container"
             >
-              <img src="../../../public/futureAim.png" alt="Future" />
+              <img src="../../assets/futureAim.png" alt="Future" />
             </motion.div>
           </div>
           {/* right side */}

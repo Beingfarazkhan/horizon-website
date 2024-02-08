@@ -63,7 +63,7 @@ const AboutUsHero = () => {
               }}
               className="about-us-image-container"
             >
-              <img src="../../../public/aboutUsTeam.png" alt="About Us" />
+              <img src="../../assets/aboutUsTeam.png" alt="About Us" />
             </motion.div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import pageUnderConstruction from "../../../public/pageUnderConstruction.png";
+import pageUnderConstruction from "../../assets/pageUnderConstruction.png";
 
 const Events = () => {
   return (

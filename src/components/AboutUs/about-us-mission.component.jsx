@@ -22,7 +22,7 @@ const AboutUsMission = () => {
               }}
               className="mission-image-container"
             >
-              <img src="../../../public/mission.png" alt="mission" />
+              <img src="../../assets/mission.png" alt="mission" />
             </motion.div>
           </div>
           {/* right side */}

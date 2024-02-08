@@ -1,6 +1,5 @@
 import React from "react";
 import "./team-card.styles.css";
-import profilepic from "../../assets/HorizonWomen/team-01.png?react";
 
 // {
 //     name: "Ashwathy G Krishnan",
