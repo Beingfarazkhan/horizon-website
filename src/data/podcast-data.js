@@ -4,8 +4,17 @@ import p3 from "../assets/podcast/p3.jpg?react";
 import p4 from "../assets/podcast/p4.jpg?react";
 import p5 from "../assets/podcast/p5.jpg?react";
 import p6 from "../assets/podcast/p6.jpg?react";
+import p7 from "../assets/podcast/p7.png?react";
 
 export const PODCAST_DATA = [
+  {
+    title: "Ep-01: College Life | Serendipity Talks",
+    creator: "Horizon BVP",
+    description:
+      "The first episode of 'Serendipity Talks' by Horizon, the debating society of Bharati Vidyapeeth's College of Engineering, Delhi. This episode is on the topic \"College Life\"",
+    thumbnail: p7,
+    url: "https://youtu.be/2YRcVqMrvrk?si=n8Lk8qX3Z-ugiiCS",
+  },
   {
     title: "Preparing Your FIRST MUN Part 1",
     creator: "International Network",
