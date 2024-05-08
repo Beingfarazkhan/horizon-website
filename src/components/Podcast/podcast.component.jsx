@@ -22,7 +22,7 @@ if (window.innerWidth >= 900) {
 
 const Podcast = () => {
   const [url, setUrl] = useState(
-    "https://www.youtube.com/watch?v=YvumPfGPM6c&ab_channel=InternationalGlobalNetwork"
+    "https://youtu.be/2YRcVqMrvrk?si=n8Lk8qX3Z-ugiiCS"
   );
 
   const changeUrl = (url) => {
